@@ -1,0 +1,390 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BSSSC_BUFF_LEN	src/bstrlib.c	2441;"	d	file:
+BSTRLIB_INCLUDE	src/bstrlib.h	15;"	d
+BSTRLIB_NOVSNP	src/bstrlib.c	2903;"	d	file:
+BSTRLIB_NOVSNP	src/bstrlib.h	28;"	d
+BSTR_BS_BUFF_LENGTH_GET	src/bstrlib.h	34;"	d
+BSTR_ERR	src/bstrlib.h	32;"	d
+BSTR_OK	src/bstrlib.h	33;"	d
+BSTR_VER_MAJOR	src/bstrlib.h	40;"	d
+BSTR_VER_MINOR	src/bstrlib.h	41;"	d
+BSTR_VER_UPDATE	src/bstrlib.h	42;"	d
+BS_BUFF_SZ	src/bstrlib.c	1888;"	d	file:
+ByteOf	src/radixmap.c	8;"	d	file:
+CFCLEN	src/bstrlib.c	1358;"	d	file:
+CFCLEN	src/bstrlib.c	1370;"	d	file:
+CFLAGS	Makefile	/^CFLAGS=-g -O2 -Wall -Wextra -Isrc -rdynamic -DNDEBUG $(OPTFLAGS)$/;"	m
+CFLAGS	Makefile	/^dev: CFLAGS=-g -Wall -Isrc -Wall -Wextra $(OPTFLAGS)$/;"	m
+DArray	src/darray.h	/^typedef struct DArray {$/;"	s
+DArray	src/darray.h	/^} DArray;$/;"	t	typeref:struct:DArray
+DArray_clear	src/darray.c	/^void DArray_clear(DArray *array) {$/;"	f
+DArray_clear_destroy	src/darray.c	/^void DArray_clear_destroy(DArray *array) {$/;"	f
+DArray_compare	src/darray.h	/^typedef int (*DArray_compare) (const void *a, const void *b);$/;"	t
+DArray_compare	src/darray_sorts.h	/^typedef int (*DArray_compare) (const void *a, const void *b);$/;"	t
+DArray_count	src/darray.h	38;"	d
+DArray_create	src/darray.c	/^DArray *DArray_create(size_t element_size, size_t initial_max) {$/;"	f
+DArray_destroy	src/darray.c	/^void  DArray_destroy(DArray *array) {$/;"	f
+DArray_end	src/darray.h	37;"	d
+DArray_expand	src/darray.c	/^int DArray_expand(DArray *array) {$/;"	f
+DArray_first	src/darray.h	40;"	d
+DArray_free	src/darray.h	99;"	d
+DArray_get	src/darray.h	/^static inline void *DArray_get(DArray *array, int index) {$/;"	f
+DArray_heapsort	src/darray_sorts.c	/^int DArray_heapsort(DArray *array, DArray_compare cmp) {$/;"	f
+DArray_last	src/darray.h	39;"	d
+DArray_max	src/darray.h	41;"	d
+DArray_mergesort	src/darray_sorts.c	/^int DArray_mergesort(DArray *array, DArray_compare cmp) {$/;"	f
+DArray_new	src/darray.h	/^static inline void *DArray_new(size_t element_size) {$/;"	f
+DArray_pop	src/darray.c	/^void *DArray_pop(DArray *array) {$/;"	f
+DArray_push	src/darray.c	/^void DArray_push(DArray *array, void *ele) {$/;"	f
+DArray_quicksort	src/darray_sorts.c	/^int DArray_quicksort(DArray *array, DArray_compare cmp) {$/;"	f
+DArray_remove	src/darray.c	/^void *DArray_remove(DArray *array, int index) {$/;"	f
+DArray_resize	src/darray.h	/^static inline int DArray_resize(DArray *array, size_t new_max) {$/;"	f
+DArray_set	src/darray.h	/^static inline void DArray_set(DArray *array, int index, void *ele) {$/;"	f
+DArray_shrink	src/darray.c	/^int DArray_shrink(DArray *array) {$/;"	f
+DArray_sort_add	src/darray.c	/^void DArray_sort_add(DArray *array, void *ele, DArray_compare cmp) {$/;"	f
+DArray_swap	src/darray.h	/^static inline void DArray_swap(DArray *array, int i, int j) {$/;"	f
+DEFAULT_EXPAND_RATE	src/darray.h	19;"	d
+HashNode	src/hashmap.h	/^typedef struct HashNode {$/;"	s
+Hashmap	src/hashmap.h	/^typedef struct Hashmap {$/;"	s
+Hashmap	src/hashmap.h	/^} Hashmap;$/;"	t	typeref:struct:Hashmap
+HashmapNode	src/hashmap.h	/^} HashmapNode;$/;"	t	typeref:struct:HashNode
+Hashmap_compare	src/hashmap.h	/^typedef int (*Hashmap_compare) (void *a, void *b);$/;"	t
+Hashmap_hash	src/hashmap.h	/^typedef uint32_t (*Hashmap_hash) (void *key);$/;"	t
+Hashmap_traverse_cb	src/hashmap.h	/^typedef int (*Hashmap_traverse_cb) (HashmapNode *node);$/;"	t
+INITIAL_STATIC_FIND_INDEX_COUNT	src/bstrlib.c	1660;"	d	file:
+LDFLAGS	Makefile	/^LDFLAGS=$(OPTLIBS)$/;"	m
+LDLIBS	Makefile	/^	LDLIBS=-llcthw -lbsd -L.\/build -lm$/;"	m
+LIST_FOREACH	src/list.h	37;"	d
+LONG_BITS_QTY	src/bstrlib.c	1355;"	d	file:
+LONG_LOG_BITS_QTY	src/bstrlib.c	1354;"	d	file:
+LONG_TYPE	src/bstrlib.c	1356;"	d	file:
+List	src/list.h	/^typedef struct List {$/;"	s
+List	src/list.h	/^} List;$/;"	t	typeref:struct:List
+ListNode	src/list.h	/^typedef struct ListNode {$/;"	s
+ListNode	src/list.h	/^} ListNode;$/;"	t	typeref:struct:ListNode
+List_clear	src/list.c	/^void List_clear(List *list)$/;"	f
+List_clear_destroy	src/list.c	/^void List_clear_destroy(List *list)$/;"	f
+List_count	src/list.h	25;"	d
+List_create	src/list.c	/^List *List_create()$/;"	f
+List_destroy	src/list.c	/^void List_destroy(List *list)$/;"	f
+List_head	src/list.h	26;"	d
+List_head_pop	src/list.c	/^void *List_head_pop(List *list)$/;"	f
+List_head_push	src/list.c	/^void List_head_push(List *list, void *value)$/;"	f
+List_pop	src/list.c	/^void *List_pop(List *list)$/;"	f
+List_push	src/list.c	/^void List_push(List *list, void *value)$/;"	f
+List_remove	src/list.c	/^void *List_remove(List *list, ListNode *node)$/;"	f
+List_tail	src/list.h	27;"	d
+N	tests/radixmap_tests.c	5;"	d	file:
+NDEBUG	tests/minunit.h	1;"	d
+OBJECTS	Makefile	/^OBJECTS=$(patsubst %.c,%.o,$(SOURCES))$/;"	m
+OS	Makefile	/^OS=$(shell lsb_release -si)$/;"	m
+PREFIX	Makefile	/^PREFIX?=\/usr\/local$/;"	m
+RMElement	src/radixmap.h	/^typedef union RMElement {$/;"	u
+RMElement	src/radixmap.h	/^}RMElement;$/;"	t	typeref:union:RMElement
+RUN_TESTS	tests/minunit.h	15;"	d
+RadixMap	src/radixmap.h	/^typedef struct RadixMap {$/;"	s
+RadixMap	src/radixmap.h	/^}RadixMap;$/;"	t	typeref:struct:RadixMap
+RadixMap_add	src/radixmap.c	/^int RadixMap_add(RadixMap *map, uint32_t key, uint32_t value) {$/;"	f
+RadixMap_create	src/radixmap.c	/^RadixMap *RadixMap_create(size_t max) {$/;"	f
+RadixMap_delete	src/radixmap.c	/^int RadixMap_delete(RadixMap *map, RMElement *ele) {$/;"	f
+RadixMap_destroy	src/radixmap.c	/^void RadixMap_destroy(RadixMap *map) {$/;"	f
+RadixMap_find	src/radixmap.c	/^RMElement *RadixMap_find(RadixMap *map, uint32_t to_find) {$/;"	f
+RadixMap_sort	src/radixmap.c	/^void RadixMap_sort(RadixMap *map) {$/;"	f
+SOURCES	Makefile	/^SOURCES=$(wildcard src\/**\/*.c src\/*.c)$/;"	m
+START_VSNBUFF	src/bstrlib.c	2915;"	d	file:
+START_VSNBUFF	src/bstrlib.c	2931;"	d	file:
+TARGET	Makefile	/^TARGET=build\/libcx.a$/;"	m
+TESTS	Makefile	/^TESTS=$(patsubst %.c,%,$(TEST_SRC))$/;"	m
+TESTS_NUM	tests/darry_sorts_tests.c	10;"	d	file:
+TEST_NUM	tests/list_sortss_tests.c	8;"	d	file:
+TEST_SRC	Makefile	/^TEST_SRC=$(wildcard tests\/*_tests.c)$/;"	m
+_CRT_SECURE_NO_WARNINGS	src/bstrlib.c	15;"	d	file:
+__dbg_h__	src/dbg.h	2;"	d
+__libcx_List_h__	src/list.h	2;"	d
+__libcx_darray_h__	src/darray.h	2;"	d
+__libcx_darry_sorts_h__	src/darray_sorts.h	2;"	d
+__libcx_hashmap_h__	src/hashmap.h	2;"	d
+__libcx_radixmap_h__	src/radixmap.h	2;"	d
+__list_algo_h__	src/list_sorts.h	2;"	d
+__minunit_h__	tests/minunit.h	3;"	d
+all_tests	tests/darray_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/darray_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/darry_sorts_tests.c	/^RUN_TESTS(all_tests);/;"	v
+all_tests	tests/darry_sorts_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/list_sortss_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/list_sortss_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/list_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/list_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/radixmap_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/radixmap_tests.c	/^char *all_tests()$/;"	f
+array	tests/darray_tests.c	/^static DArray *array = NULL;$/;"	v	file:
+array	tests/darry_sorts_tests.c	/^static DArray *array = NULL;$/;"	v	file:
+b	src/bstrlib.c	/^	bstring b;$/;"	m	struct:genBstrList	file:
+bBlockCopy	src/bstrlib.c	75;"	d	file:
+bNgetc	src/bstrlib.h	/^typedef int (*bNgetc) (void *parm);$/;"	t
+bNread	src/bstrlib.h	/^typedef size_t (* bNread) (void *buff, size_t elsize, size_t nelem, void *parm);$/;"	t
+bStream	src/bstrlib.c	/^struct bStream {$/;"	s	file:
+balloc	src/bstrlib.c	/^int balloc (bstring b, int olen) {$/;"	f
+ballocmin	src/bstrlib.c	/^int ballocmin (bstring b, int len) {$/;"	f
+bassign	src/bstrlib.c	/^int bassign (bstring a, const_bstring b) {$/;"	f
+bassignStatic	src/bstrlib.h	227;"	d
+bassignblk	src/bstrlib.c	/^int bassignblk (bstring a, const void * s, int len) {$/;"	f
+bassigncstr	src/bstrlib.c	/^int bassigncstr (bstring a, const char * str) {$/;"	f
+bassignformat	src/bstrlib.c	/^int bassignformat (bstring b, const char * fmt, ...) {$/;"	f
+bassigngets	src/bstrlib.c	/^int bassigngets (bstring b, bNgetc getcPtr, void * parm, char terminator) {$/;"	f
+bassignmidstr	src/bstrlib.c	/^int bassignmidstr (bstring a, const_bstring b, int left, int len) {$/;"	f
+bcatStatic	src/bstrlib.h	225;"	d
+bcatblk	src/bstrlib.c	/^int bcatblk (bstring b, const void * s, int len) {$/;"	f
+bcatcstr	src/bstrlib.c	/^int bcatcstr (bstring b, const char * s) {$/;"	f
+bchar	src/bstrlib.h	211;"	d
+bchare	src/bstrlib.h	210;"	d
+bconcat	src/bstrlib.c	/^int bconcat (bstring b0, const_bstring b1) {$/;"	f
+bconchar	src/bstrlib.c	/^int bconchar (bstring b, char c) {$/;"	f
+bcstrfree	src/bstrlib.c	/^int bcstrfree (char * s) {$/;"	f
+bdata	src/bstrlib.h	209;"	d
+bdatae	src/bstrlib.h	208;"	d
+bdataofs	src/bstrlib.h	207;"	d
+bdataofse	src/bstrlib.h	206;"	d
+bdelete	src/bstrlib.c	/^int bdelete (bstring b, int pos, int len) {$/;"	f
+bdestroy	src/bstrlib.c	/^int bdestroy (bstring b) {$/;"	f
+bfindreplace	src/bstrlib.c	/^int bfindreplace (bstring b, const_bstring find, const_bstring repl,$/;"	f
+bfindreplacecaseless	src/bstrlib.c	/^int bfindreplacecaseless (bstring b, const_bstring find, const_bstring repl,$/;"	f
+bformat	src/bstrlib.c	/^bstring bformat (const char * fmt, ...) {$/;"	f
+bformata	src/bstrlib.c	/^int bformata (bstring b, const char * fmt, ...) {$/;"	f
+bfromStatic	src/bstrlib.h	226;"	d
+bfromcstr	src/bstrlib.c	/^bstring bfromcstr (const char * str) {$/;"	f
+bfromcstralloc	src/bstrlib.c	/^bstring bfromcstralloc (int mlen, const char * str) {$/;"	f
+bfromcstrrangealloc	src/bstrlib.c	/^bstring bfromcstrrangealloc (int minl, int maxl, const char* str) {$/;"	f
+bgets	src/bstrlib.c	/^bstring bgets (bNgetc getcPtr, void * parm, char terminator) {$/;"	f
+bgetsa	src/bstrlib.c	/^int bgetsa (bstring b, bNgetc getcPtr, void * parm, char terminator) {$/;"	f
+binchr	src/bstrlib.c	/^int binchr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+binchrCF	src/bstrlib.c	/^static int binchrCF (const unsigned char * data, int len, int pos,$/;"	f	file:
+binchrr	src/bstrlib.c	/^int binchrr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+binchrrCF	src/bstrlib.c	/^static int binchrrCF (const unsigned char * data, int pos,$/;"	f	file:
+binsert	src/bstrlib.c	/^int binsert (bstring b1, int pos, const_bstring b2, unsigned char fill) {$/;"	f
+binsertStatic	src/bstrlib.h	228;"	d
+binsertblk	src/bstrlib.c	/^int binsertblk (bstring b, int pos, const void * blk, int len,$/;"	f
+binsertch	src/bstrlib.c	/^int binsertch (bstring b, int pos, int len, unsigned char fill) {$/;"	f
+binstr	src/bstrlib.c	/^int binstr (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+binstrcaseless	src/bstrlib.c	/^int binstrcaseless (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+binstrr	src/bstrlib.c	/^int binstrr (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+binstrrcaseless	src/bstrlib.c	/^int binstrrcaseless (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+biseq	src/bstrlib.c	/^int biseq (const_bstring b0, const_bstring b1) {$/;"	f
+biseqStatic	src/bstrlib.h	230;"	d
+biseqblk	src/bstrlib.c	/^int biseqblk (const_bstring b, const void * blk, int len) {$/;"	f
+biseqcaseless	src/bstrlib.c	/^int biseqcaseless (const_bstring b0, const_bstring b1) {$/;"	f
+biseqcaselessStatic	src/bstrlib.h	232;"	d
+biseqcaselessblk	src/bstrlib.c	/^int biseqcaselessblk (const_bstring b, const void * blk, int len) {$/;"	f
+biseqcstr	src/bstrlib.c	/^int biseqcstr (const_bstring b, const char * s) {$/;"	f
+biseqcstrcaseless	src/bstrlib.c	/^int biseqcstrcaseless (const_bstring b, const char * s) {$/;"	f
+bisstemeqStatic	src/bstrlib.h	231;"	d
+bisstemeqblk	src/bstrlib.c	/^int bisstemeqblk (const_bstring b0, const void * blk, int len) {$/;"	f
+bisstemeqcaselessStatic	src/bstrlib.h	233;"	d
+bisstemeqcaselessblk	src/bstrlib.c	/^int bisstemeqcaselessblk (const_bstring b0, const void * blk, int len) {$/;"	f
+biswriteprotected	src/bstrlib.h	315;"	d
+bjoin	src/bstrlib.c	/^bstring bjoin (const struct bstrList * bl, const_bstring sep) {$/;"	f
+bjoinStatic	src/bstrlib.h	229;"	d
+bjoinblk	src/bstrlib.c	/^bstring bjoinblk (const struct bstrList * bl, const void * blk, int len) {$/;"	f
+bl	src/bstrlib.c	/^	struct bstrList * bl;$/;"	m	struct:genBstrList	typeref:struct:genBstrList::bstrList	file:
+blength	src/bstrlib.h	205;"	d
+blengthe	src/bstrlib.h	204;"	d
+blk2bstr	src/bstrlib.c	/^bstring blk2bstr (const void * blk, int len) {$/;"	f
+blk2tbstr	src/bstrlib.h	242;"	d
+bltrimws	src/bstrlib.c	/^int bltrimws (bstring b) {$/;"	f
+bmid2tbstr	src/bstrlib.h	248;"	d
+bmidstr	src/bstrlib.c	/^bstring bmidstr (const_bstring b, int left, int len) {$/;"	f
+bninchr	src/bstrlib.c	/^int bninchr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+bninchrr	src/bstrlib.c	/^int bninchrr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+bpattern	src/bstrlib.c	/^int bpattern (bstring b, int len) {$/;"	f
+bread	src/bstrlib.c	/^bstring bread (bNread readPtr, void * parm) {$/;"	f
+breada	src/bstrlib.c	/^int breada (bstring b, bNread readPtr, void * parm) {$/;"	f
+breplace	src/bstrlib.c	/^int breplace (bstring b1, int pos, int len, const_bstring b2,$/;"	f
+brtrimws	src/bstrlib.c	/^int brtrimws (bstring b) {$/;"	f
+bsStatic	src/bstrlib.h	216;"	d
+bsStatic	src/bstrlib.h	219;"	d
+bsStaticBlkParms	src/bstrlib.h	223;"	d
+bsStaticMlen	src/bstrlib.h	214;"	d
+bsbufflength	src/bstrlib.c	/^int bsbufflength (struct bStream * s, int sz) {$/;"	f
+bscb	src/bstrlib.c	/^static int bscb (void * parm, int ofs, int len) {$/;"	f	file:
+bsclose	src/bstrlib.c	/^void * bsclose (struct bStream * s) {$/;"	f
+bseof	src/bstrlib.c	/^int bseof (const struct bStream * s) {$/;"	f
+bsetstr	src/bstrlib.c	/^int bsetstr (bstring b0, int pos, const_bstring b1, unsigned char fill) {$/;"	f
+bsopen	src/bstrlib.c	/^struct bStream * bsopen (bNread readPtr, void * parm) {$/;"	f
+bspeek	src/bstrlib.c	/^int bspeek (bstring r, const struct bStream * s) {$/;"	f
+bsplit	src/bstrlib.c	/^struct bstrList * bsplit (const_bstring str, unsigned char splitChar) {$/;"	f
+bsplitcb	src/bstrlib.c	/^int bsplitcb (const_bstring str, unsigned char splitChar, int pos,$/;"	f
+bsplits	src/bstrlib.c	/^struct bstrList * bsplits (const_bstring str, const_bstring splitStr) {$/;"	f
+bsplitscb	src/bstrlib.c	/^int bsplitscb (const_bstring str, const_bstring splitStr, int pos,$/;"	f
+bsplitstr	src/bstrlib.c	/^struct bstrList * bsplitstr (const_bstring str, const_bstring splitStr) {$/;"	f
+bsplitstrcb	src/bstrlib.c	/^int bsplitstrcb (const_bstring str, const_bstring splitStr, int pos,$/;"	f
+bsread	src/bstrlib.c	/^int bsread (bstring r, struct bStream * s, int n) {$/;"	f
+bsreada	src/bstrlib.c	/^int bsreada (bstring r, struct bStream * s, int n) {$/;"	f
+bsreadln	src/bstrlib.c	/^int bsreadln (bstring r, struct bStream * s, char terminator) {$/;"	f
+bsreadlna	src/bstrlib.c	/^int bsreadlna (bstring r, struct bStream * s, char terminator) {$/;"	f
+bsreadlns	src/bstrlib.c	/^int bsreadlns (bstring r, struct bStream * s, const_bstring term) {$/;"	f
+bsreadlnsa	src/bstrlib.c	/^int bsreadlnsa (bstring r, struct bStream * s, const_bstring term) {$/;"	f
+bssplitscb	src/bstrlib.c	/^int bssplitscb (struct bStream * s, const_bstring splitStr,$/;"	f
+bssplitstrcb	src/bstrlib.c	/^int bssplitstrcb (struct bStream * s, const_bstring splitStr,$/;"	f
+bstr2cstr	src/bstrlib.c	/^char * bstr2cstr (const_bstring b, char z) {$/;"	f
+bstrList	src/bstrlib.h	/^struct bstrList {$/;"	s
+bstrListAlloc	src/bstrlib.c	/^int bstrListAlloc (struct bstrList * sl, int msz) {$/;"	f
+bstrListAllocMin	src/bstrlib.c	/^int bstrListAllocMin (struct bstrList * sl, int msz) {$/;"	f
+bstrListCreate	src/bstrlib.c	/^struct bstrList * bstrListCreate (void) {$/;"	f
+bstrListDestroy	src/bstrlib.c	/^int bstrListDestroy (struct bstrList * sl) {$/;"	f
+bstr__alloc	src/bstrlib.c	/^void* bstr__alloc (size_t sz) {$/;"	f
+bstr__alloc	src/bstrlib.c	41;"	d	file:
+bstr__free	src/bstrlib.c	46;"	d	file:
+bstr__memchr	src/bstrlib.c	70;"	d	file:
+bstr__memcmp	src/bstrlib.c	66;"	d	file:
+bstr__memcpy	src/bstrlib.c	54;"	d	file:
+bstr__memmove	src/bstrlib.c	58;"	d	file:
+bstr__memset	src/bstrlib.c	62;"	d	file:
+bstr__realloc	src/bstrlib.c	50;"	d	file:
+bstrchr	src/bstrlib.h	100;"	d
+bstrchrp	src/bstrlib.c	/^int bstrchrp (const_bstring b, int c, int pos) {$/;"	f
+bstrcmp	src/bstrlib.c	/^int bstrcmp (const_bstring b0, const_bstring b1) {$/;"	f
+bstrcpy	src/bstrlib.c	/^bstring bstrcpy (const_bstring b) {$/;"	f
+bstricmp	src/bstrlib.c	/^int bstricmp (const_bstring b0, const_bstring b1) {$/;"	f
+bstring	src/bstrlib.h	/^typedef struct tagbstring * bstring;$/;"	t	typeref:struct:tagbstring
+bstrncmp	src/bstrlib.c	/^int bstrncmp (const_bstring b0, const_bstring b1, int n) {$/;"	f
+bstrnicmp	src/bstrlib.c	/^int bstrnicmp (const_bstring b0, const_bstring b1, int n) {$/;"	f
+bstrrchr	src/bstrlib.h	101;"	d
+bstrrchrp	src/bstrlib.c	/^int bstrrchrp (const_bstring b, int c, int pos) {$/;"	f
+bsunread	src/bstrlib.c	/^int bsunread (struct bStream * s, const_bstring b) {$/;"	f
+btfromblk	src/bstrlib.h	247;"	d
+btfromblkltrimws	src/bstrlib.h	272;"	d
+btfromblkrtrimws	src/bstrlib.h	284;"	d
+btfromblktrimws	src/bstrlib.h	296;"	d
+btfromcstr	src/bstrlib.h	237;"	d
+btolower	src/bstrlib.c	/^int btolower (bstring b) {$/;"	f
+btoupper	src/bstrlib.c	/^int btoupper (bstring b) {$/;"	f
+btrimws	src/bstrlib.c	/^int btrimws (bstring b) {$/;"	f
+btrunc	src/bstrlib.c	/^int btrunc (bstring b, int n) {$/;"	f
+buckets	src/hashmap.h	/^	DArray *buckets;$/;"	m	struct:Hashmap
+buff	src/bstrlib.c	/^	bstring buff;		\/* Buffer for over-reads *\/$/;"	m	struct:bStream	file:
+buildCharField	src/bstrlib.c	/^static int buildCharField (struct charField * cf, const_bstring b) {$/;"	f	file:
+bvcformata	src/bstrlib.c	/^int bvcformata (bstring b, int count, const char * fmt, va_list arg) {$/;"	f
+bvformata	src/bstrlib.h	146;"	d
+bwriteallow	src/bstrlib.h	314;"	d
+bwriteprotect	src/bstrlib.h	313;"	d
+charField	src/bstrlib.c	/^struct charField { LONG_TYPE content[CFCLEN]; };$/;"	s	file:
+charField	src/bstrlib.c	/^struct charField { unsigned char content[CFCLEN]; };$/;"	s	file:
+check	src/dbg.h	28;"	d
+check_debug	src/dbg.h	36;"	d
+check_mem	src/dbg.h	34;"	d
+check_order	tests/radixmap_tests.c	/^static int check_order(RadixMap *map)$/;"	f	file:
+clean_errno	src/dbg.h	15;"	d
+compare	src/hashmap.h	/^	Hashmap_compare compare;$/;"	m	struct:Hashmap
+const_bstring	src/bstrlib.h	/^typedef const struct tagbstring * const_bstring;$/;"	t	typeref:struct:tagbstring
+content	src/bstrlib.c	/^struct charField { LONG_TYPE content[CFCLEN]; };$/;"	m	struct:charField	file:
+content	src/bstrlib.c	/^struct charField { unsigned char content[CFCLEN]; };$/;"	m	struct:charField	file:
+contents	src/darray.h	/^	void **contents;$/;"	m	struct:DArray
+contents	src/radixmap.h	/^	RMElement *contents;$/;"	m	struct:RadixMap
+count	src/list.h	/^    int count;$/;"	m	struct:List
+counter	src/radixmap.h	/^	uint32_t counter;$/;"	m	struct:RadixMap
+cstr2bstr	src/bstrlib.h	45;"	d
+cstr2tbstr	src/bstrlib.h	236;"	d
+data	src/bstrlib.h	/^	unsigned char * data;$/;"	m	struct:tagbstring
+data	src/radixmap.h	/^	} data;$/;"	m	union:RMElement	typeref:struct:RMElement::__anon1
+debug	src/dbg.h	11;"	d
+debug	src/dbg.h	9;"	d
+downcase	src/bstrlib.c	601;"	d	file:
+element_size	src/darray.h	/^	size_t element_size;$/;"	m	struct:DArray
+end	src/darray.h	/^	int end;$/;"	m	struct:DArray
+end	src/radixmap.h	/^	size_t end;$/;"	m	struct:RadixMap
+entry	src/bstrlib.h	/^    bstring * entry;$/;"	m	struct:bstrList
+expand_rate	src/darray.h	/^	size_t expand_rate;$/;"	m	struct:DArray
+exvsnprintf	src/bstrlib.c	2909;"	d	file:
+exvsnprintf	src/bstrlib.c	2914;"	d	file:
+exvsnprintf	src/bstrlib.c	2924;"	d	file:
+findreplaceengine	src/bstrlib.c	/^static int findreplaceengine (bstring b, const_bstring find,$/;"	f	file:
+genBstrList	src/bstrlib.c	/^struct genBstrList {$/;"	s	file:
+hash	src/hashmap.h	/^	Hashmap_hash hash;$/;"	m	struct:Hashmap
+hash	src/hashmap.h	/^	uint32_t hash;$/;"	m	struct:HashNode
+head	src/list.h	/^    ListNode *head;$/;"	m	struct:List
+instr_fnptr	src/bstrlib.c	/^typedef int (*instr_fnptr) (const_bstring s1, int pos, const_bstring s2);$/;"	t	file:
+invertCharField	src/bstrlib.c	/^static void invertCharField (struct charField * cf) {$/;"	f	file:
+isEOF	src/bstrlib.c	/^	int isEOF;			\/* track file's EOF state *\/$/;"	m	struct:bStream	file:
+is_sorted	tests/darry_sorts_tests.c	/^int is_sorted(DArray * array)$/;"	f
+is_sorted	tests/list_sortss_tests.c	/^int is_sorted(List *list) {$/;"	f
+key	src/hashmap.h	/^	void *key;$/;"	m	struct:HashNode
+key	src/radixmap.h	/^		uint32_t key;$/;"	m	struct:RMElement::__anon1
+list	tests/list_tests.c	/^static List *list = NULL;$/;"	v	file:
+list_bubble_sort	src/list_sorts.c	/^int list_bubble_sort(List *list, list_compare cmp) {$/;"	f
+list_compare	src/list_sorts.h	/^typedef int (*list_compare) (const void *a, const void *b);$/;"	t
+list_merge_sort	src/list_sorts.c	/^List *list_merge_sort(List *list, list_compare cmp) {$/;"	f
+log_err	src/dbg.h	17;"	d
+log_info	src/dbg.h	25;"	d
+log_warn	src/dbg.h	21;"	d
+make_random	tests/radixmap_tests.c	/^static int make_random(RadixMap *map)$/;"	f	file:
+max	src/darray.h	/^	int max;$/;"	m	struct:DArray
+max	src/radixmap.h	/^	size_t max;$/;"	m	struct:RadixMap
+maxBuffSz	src/bstrlib.c	/^	int maxBuffSz;$/;"	m	struct:bStream	file:
+merge	src/list_sorts.h	/^static inline List *merge(List *left_list, List *right_list, list_compare cmp) {$/;"	f
+mlen	src/bstrlib.h	/^	int mlen;$/;"	m	struct:tagbstring
+mlen	src/bstrlib.h	/^    int qty, mlen;$/;"	m	struct:bstrList
+mu_assert	tests/minunit.h	11;"	d
+mu_run_test	tests/minunit.h	12;"	d
+mu_suite_start	tests/minunit.h	9;"	d
+myCreate	tests/darry_sorts_tests.c	/^void myCreate() {$/;"	f
+myStrcmp	tests/darry_sorts_tests.c	/^int myStrcmp(const void **a, const void **b) {$/;"	f
+my_cmp	tests/darray_tests.c	/^int my_cmp(const void **a, const void **b) {$/;"	f
+next	src/list.h	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode
+parm	src/bstrlib.c	/^	void * parm;		\/* The stream handle for core stream *\/$/;"	m	struct:bStream	file:
+prev	src/list.h	/^    struct ListNode *prev;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode
+qty	src/bstrlib.h	/^    int qty, mlen;$/;"	m	struct:bstrList
+radix_sort	src/radixmap.c	/^static inline void radix_sort(short offset, uint64_t max,$/;"	f	file:
+raw	src/radixmap.h	/^	uint64_t raw;$/;"	m	union:RMElement
+readFnPtr	src/bstrlib.c	/^	bNread readFnPtr;	\/* fread compatible fnptr for core stream *\/$/;"	m	struct:bStream	file:
+sentinel	src/dbg.h	31;"	d
+setInCharField	src/bstrlib.c	1362;"	d	file:
+setInCharField	src/bstrlib.c	1373;"	d	file:
+slen	src/bstrlib.h	/^	int slen;$/;"	m	struct:tagbstring
+snapUpSize	src/bstrlib.c	/^static int snapUpSize (int i) {$/;"	f	file:
+swap_node	src/list_sorts.c	/^void swap_node(ListNode *a, ListNode *b){$/;"	f
+tagbstring	src/bstrlib.h	/^struct tagbstring {$/;"	s
+tail	src/list.h	/^    ListNode *tail;$/;"	m	struct:List
+temp	src/radixmap.h	/^	RMElement *temp;$/;"	m	struct:RadixMap
+test	tests/list_sortss_tests.c	/^char *test[] = { "kuangzifan", "jinzhiyu", "daiminshen", "chenxiao", "chenshuyu", "hello", "moto"};$/;"	v
+test1	tests/list_tests.c	/^char *test1 = "test1 data";$/;"	v
+test2	tests/list_tests.c	/^char *test2 = "test2 data";$/;"	v
+test3	tests/list_tests.c	/^char *test3 = "test3 data";$/;"	v
+testInCharField	src/bstrlib.c	1360;"	d	file:
+testInCharField	src/bstrlib.c	1372;"	d	file:
+test_bubble_sort	tests/list_sortss_tests.c	/^char *test_bubble_sort()$/;"	f
+test_create	tests/darray_tests.c	/^char *test_create()$/;"	f
+test_create	tests/list_tests.c	/^char *test_create()$/;"	f
+test_destroy	tests/darray_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/list_tests.c	/^char *test_destroy()$/;"	f
+test_expand_shrink	tests/darray_tests.c	/^char *test_expand_shrink()$/;"	f
+test_get_set	tests/darray_tests.c	/^char *test_get_set() $/;"	f
+test_head_pop	tests/list_tests.c	/^char *test_head_pop()$/;"	f
+test_head_push	tests/list_tests.c	/^char *test_head_push()$/;"	f
+test_heapsort	tests/darry_sorts_tests.c	/^char *test_heapsort() $/;"	f
+test_merge_sort	tests/list_sortss_tests.c	/^char *test_merge_sort()$/;"	f
+test_mergesort	tests/darry_sorts_tests.c	/^char *test_mergesort()$/;"	f
+test_new	tests/darray_tests.c	/^char *test_new()$/;"	f
+test_operations	tests/radixmap_tests.c	/^char *test_operations()$/;"	f
+test_push_pop	tests/darray_tests.c	/^char *test_push_pop()$/;"	f
+test_push_pop	tests/list_tests.c	/^char *test_push_pop()$/;"	f
+test_quicksort	tests/darry_sorts_tests.c	/^char *test_quicksort() $/;"	f
+test_remove	tests/darray_tests.c	/^char *test_remove()$/;"	f
+test_remove	tests/list_tests.c	/^char *test_remove()$/;"	f
+test_resize	tests/darray_tests.c	/^char *test_resize()$/;"	f
+test_search	tests/radixmap_tests.c	/^static int test_search(RadixMap *map) $/;"	f	file:
+test_sort_add	tests/darray_tests.c	/^char *test_sort_add()$/;"	f
+test_swap	tests/darray_tests.c	/^char *test_swap()$/;"	f
+tests	tests/darry_sorts_tests.c	/^char *tests[] = { "kuangzifan", "jinzhiyu", "daiminshen", "chenxiao", "chenshuyu", "hello", "moto"};$/;"	v
+tests_run	tests/minunit.h	/^int tests_run;$/;"	v
+upcase	src/bstrlib.c	600;"	d	file:
+val1	tests/darray_tests.c	/^static int *val1 = NULL;$/;"	v	file:
+val2	tests/darray_tests.c	/^static int *val2 = NULL;$/;"	v	file:
+value	src/hashmap.h	/^	void *value;$/;"	m	struct:HashNode
+value	src/list.h	/^    void *value;$/;"	m	struct:ListNode
+value	src/radixmap.h	/^		uint32_t value;$/;"	m	struct:RMElement::__anon1
+wspace	src/bstrlib.c	602;"	d	file:
